@@ -1,0 +1,69 @@
+body{
+    background-color:black ;
+    color: white; 
+}
+#gameContainer{
+    text-align: center;
+    font-family: "permanent Marker", cursive;
+
+}
+/* table{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* border-collapse: collapse;
+    height: 400px;
+    width: 400px;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-left:hidden ;
+    border-right:hidden ; */
+    /* justify-content: center ; */
+    /* align-items: center; */
+    /* text-align: ; */
+
+
+/* } */
+/* .wel{
+    text-align: center; */
+/* } */
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size:50px ;
+    cursor: pointer;
+
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    
+}
+/* tr { 
+    border: solid white  2px;
+    
+}
+td{
+    border: solid white 2px;
+} */ 
+/* .wel{
+    /* justify-content: center; */
+    /* text-align: center;
+    padding: auto;
+}
+.result{
+    text-align: center;
+    justify-content: center;
+    display: flex ;
+}
+.scr{
+    text-align: center;
+
+} */ 
